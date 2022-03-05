@@ -1,13 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // "./" denotes the path relative to this current file
-import Heading from "./Heading";
-import List from "./List";
+import App from "./App";
 
-ReactDOM.render(
-  <>
-    <Heading />
-    <List />
-  </>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
